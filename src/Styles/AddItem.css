@@ -1,0 +1,56 @@
+.h1-add-new-note {
+    margin: 0px;
+}
+
+.outerdiv-forback {
+    animation: reverse ease-in 2s both;
+    position: sticky;
+    display: flex;
+    top: 0px;
+    bottom: 0px;
+    min-height: 98dvh;
+    width: auto;
+    margin: 0px;
+    z-index: 300;
+    background-color: rgb(255 255 255 / 24%);
+    backdrop-filter: blur(8px);
+    border-radius: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-add-div {
+    z-index: 3000;
+    height: 50vh;
+    width: 50vw;
+    background-color: #000000d1;
+    border-radius: 35px;
+    -webkit-backdrop-filter: blur(49px);
+    backdrop-filter: blur(49px);
+    border: 5px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+}
+
+.title-input {
+    border: none;
+    height: 10%;
+    z-index: 3000;
+
+}
+
+.description-input {
+    border: none;
+    height: 30%;
+    text-wrap: wrap;
+    z-index: 3000;
+}
+
+.add-note-button {
+    display: block;
+    z-index: 3000;
+}
