@@ -5,6 +5,17 @@
   animation: forwards 0.5s ease-in-out 0.1s infinite;
 }
 
+::-webkit-scrollbar {
+  background-color: black;
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  color: white;
+  background-color: rgb(102, 102, 102);
+  border-radius: 20px;
+}
+
 body {
   padding: 10px;
   background-color: rgb(0, 0, 0);
@@ -64,7 +75,7 @@ li:hover {
   margin: auto;
   min-width: 22vw;
   max-width: 53vw;
-  height: 10vh;
+  /* height: 10vh; */
   background-color: rgb(29, 29, 29);
   padding: 20px 40px;
   padding-bottom: 0px;
@@ -172,6 +183,7 @@ input:focus-visible {
 
 
 
+
 }
 
 
@@ -206,6 +218,8 @@ input:focus-visible {
 
 
   .head-div {
+    /* display: flex;
+    flex-direction: row; */
     text-align: center;
     margin: auto;
     margin-top: 20px;
@@ -220,12 +234,12 @@ input:focus-visible {
   }
 
   .main-heading {
-    top: -91px;
-    left: 28px;
+    top: -15px;
+    left: -10px;
   }
 
   .head-div .edit {
-    top: -17px;
+    /* top: -17px; */
   }
 
   .input {

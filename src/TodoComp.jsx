@@ -16,12 +16,6 @@ const TodoComp = () => {
     },
     {
       id: nanoid(),
-      item: "Thirditem",
-      description:
-        "This is the description of the third note and the UI is really minimalistic",
-    },
-    {
-      id: nanoid(),
       item: "Fourthitem",
       description: "This is description",
     },
@@ -29,6 +23,12 @@ const TodoComp = () => {
       id: nanoid(),
       item: "Fifthitem",
       description: "This is description",
+    },
+    {
+      id: nanoid(),
+      item: "Thirditem",
+      description:
+        "This is the description of the third note and the UI is really minimalistic",
     },
   ]);
 
